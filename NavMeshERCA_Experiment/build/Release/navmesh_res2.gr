@@ -1,0 +1,12 @@
+c Resource 2 (Action Points) file for NavMesh graph
+p sp 6 10
+a 1 5 100
+a 2 4 100
+a 3 5 100
+a 3 6 100
+a 4 2 100
+a 4 6 100
+a 5 3 100
+a 5 1 100
+a 6 3 100
+a 6 4 100
