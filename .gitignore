@@ -1,14 +1,59 @@
-# 忽略文件夹（后面加斜杠）
-2026届/
-word插件/
+# ===========================
+# Build artifacts
+# ===========================
+**/build/
+**/Release/
+**/Debug/
+*.exe
+*.obj
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.exp
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+ALL_BUILD.*
+ZERO_CHECK.*
+install_manifest.txt
+
+# ===========================
+# IDE / Editor files
+# ===========================
+.vs/
+.vscode/
+*.suo
+*.user
+
+# Word temporary files
+~$*.docx
+~$*.doc
+
+# ===========================
+# Third-party libraries (not authored by student)
+# ===========================
 public_erca/
 recastnavigation/
 
-# 忽略特定文件
+# ===========================
+# School templates & admin docs (not thesis content)
+# ===========================
+2026届/
+word插件/
+
+# ===========================
+# Miscellaneous
+# ===========================
 参考文献.zip
-
-# 忽略所有 PDF 文件（如果你只想要忽略那一个，就写具体文件名）
 开题报告参考.pdf
+*.zip
 
-# 忽略 Word 生成的临时文件（以 ~$ 开头）
-~$*.docx
+# Claude internal files
+.claude/worktrees/
